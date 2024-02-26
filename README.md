@@ -1,5 +1,7 @@
 # Federated Learning Annotated Image Repository (FLAIR): A large labelled image dataset for benchmarking in federated learning
 
+This is a [`Flower-based`](https://flower.ai/) implementation of [`Apple's original repository`](https://github.com/apple/ml-flair).
+
 FLAIR is a large dataset of images that captures a number of characteristics encountered in federated learning and privacy-preserving ML tasks. 
 This dataset comprises approximately 430,000 images from 51,000 Flickr users, which will better reflect federated learning problems arising in practice, and it is being released to aid research in the field.
 
