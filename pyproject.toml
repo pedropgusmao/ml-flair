@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "ml-flair"
+version = "0.1.0"
+description = ""
+authors = ["Pedro Porto Buarque de Gusmão <pedropgusmao@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+torch = "^2.2.1"
+pyarrow = "^15.0.0"
+pandas = "^2.2.1"
+torchvision = "^0.17.1"
+pillow-simd = "^9.0.0.post1"
+h5py = "^3.10.0"
+black = "^24.2.0"
+flake8 = "^7.0.0"
+pylint = "^3.1.0"
+mypy = "^1.8.0"
+flwr = "^1.7.0"
+mpi4py = "^3.1.5"
+isort = "^5.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
